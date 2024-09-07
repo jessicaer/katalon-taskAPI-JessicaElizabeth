@@ -4,4 +4,29 @@
    <name>default</name>
    <tag></tag>
    <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://kasir-api.zelz.my.id'</initValue>
+      <name>baseURL</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'tokojaya123@gmail.com'</initValue>
+      <name>email</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'password'</initValue>
+      <name>password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNTY4Mzc3MX0.FhY-yRRmmvkI0wusny1HI9RUxPLNQXRhjsoDouoKhE0'</initValue>
+      <name>refreshToken</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNTY4MzgyM30.UbDpB8N_fpv7iaoMZHb322es8lQXoGpyMnbPJB7Xwww'</initValue>
+      <name>accessToken</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -15,6 +15,28 @@
 		<nature>org.eclipse.jdt.groovy.core.groovyNature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>kat-18160084364900775376.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-18160084364900775376.groovy</location>
+		</link>
+		<link>
+			<name>kat-18292882641995291016.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-18292882641995291016.groovy</location>
+		</link>
+		<link>
+			<name>kat-44132363226403740.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-44132363226403740.groovy</location>
+		</link>
+		<link>
+			<name>kat-7347284817567342822.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-7347284817567342822.groovy</location>
+		</link>
+	</linkedResources>
 	<filteredResources>
 		<filter>
 			<id>1725681546280</id>
@@ -45,6 +67,42 @@
 		</filter>
 		<filter>
 			<id>1725681679029</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1725682398574</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1725682398585</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1725682544382</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1725682544501</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
