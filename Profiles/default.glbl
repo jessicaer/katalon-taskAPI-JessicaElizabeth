@@ -39,4 +39,9 @@
       <initValue>'8bb0dbbf-5d3c-4a75-be98-59e6f85b000f'</initValue>
       <name>unitID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'1e2c599f-754c-47f0-9278-99308e4cb3c8'</initValue>
+      <name>categoryID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
