@@ -21,12 +21,17 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNTY4Mzc3MX0.FhY-yRRmmvkI0wusny1HI9RUxPLNQXRhjsoDouoKhE0'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNTg4NTU2Mn0.EZasdgR1kbYVAnn6jsg3-kaKl-9oPZhXKdE7XcuejY8'</initValue>
       <name>refreshToken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNTY4MzgyM30.UbDpB8N_fpv7iaoMZHb322es8lQXoGpyMnbPJB7Xwww'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNTg4NTU2Mn0.8687NU1HhDkqOtnL8mLnpumOTuKW85_VDprHyRQxNhk'</initValue>
       <name>accessToken</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'d083b52e-f2ba-495d-8fa8-b73be501fbb6'</initValue>
+      <name>userID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

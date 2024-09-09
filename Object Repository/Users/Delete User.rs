@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>Update User</name>
+   <name>Delete User</name>
    <tag></tag>
-   <elementGuidId>99e263bc-c5cd-4554-94a1-6f3b43be64a0</elementGuidId>
+   <elementGuidId>41f6d458-dd0c-4dc5-80a5-6957c392f031</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -16,59 +16,40 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>false</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <autoUpdateContent>true</autoUpdateContent>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;Jessie\&quot;,\n    \&quot;email\&quot; : \&quot;jessie@gmail.com\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
-}</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
-   <httpHeaderProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>Content-Type</name>
-      <type>Main</type>
-      <value>application/json</value>
-      <webElementGuid>9abce5b7-a5a4-425f-a533-747ca0475724</webElementGuid>
-   </httpHeaderProperties>
+   <httpBodyContent></httpBodyContent>
+   <httpBodyType></httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${accessToken}</value>
-      <webElementGuid>851abcc5-ea91-4ba0-80b1-1fe52313126f</webElementGuid>
+      <webElementGuid>f7f06f6d-e1b3-4450-ae54-8c7d3e6b5c04</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.6.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>PUT</restRequestMethod>
-   <restUrl>${GlobalVariable.baseURL}/users/${userID}</restUrl>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>${GlobalVariable.baseURL}/users/27169461-58bc-47c3-aaa4-74f3a0fca6da</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.accessToken</defaultValue>
       <description></description>
-      <id>ed42e7c1-88fb-47ee-8f08-d86f8ca1d5d0</id>
+      <id>aaf33c60-dbbc-4fb5-a18e-234f24809fdd</id>
       <masked>false</masked>
       <name>accessToken</name>
-   </variables>
-   <variables>
-      <defaultValue>GlobalVariable.userID</defaultValue>
-      <description></description>
-      <id>c937c83b-88ad-48f7-b9ef-a4c6ae5eea02</id>
-      <masked>false</masked>
-      <name>userID</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

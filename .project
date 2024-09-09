@@ -17,19 +17,19 @@
 	</natures>
 	<linkedResources>
 		<link>
-			<name>kat-11707118451228337283.groovy</name>
+			<name>kat-1213977040119772454.groovy</name>
 			<type>1</type>
-			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-11707118451228337283.groovy</location>
+			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-1213977040119772454.groovy</location>
 		</link>
 		<link>
-			<name>kat-15830555963721354547.groovy</name>
+			<name>kat-13554141074366521987.groovy</name>
 			<type>1</type>
-			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-15830555963721354547.groovy</location>
+			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-13554141074366521987.groovy</location>
 		</link>
 		<link>
-			<name>kat-18160084364900775376.groovy</name>
+			<name>kat-15671493805740551865.groovy</name>
 			<type>1</type>
-			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-18160084364900775376.groovy</location>
+			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-15671493805740551865.groovy</location>
 		</link>
 		<link>
 			<name>kat-4205080779868085391.groovy</name>
@@ -37,9 +37,19 @@
 			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-4205080779868085391.groovy</location>
 		</link>
 		<link>
-			<name>kat-44132363226403740.groovy</name>
+			<name>kat-5129755785446753887.groovy</name>
 			<type>1</type>
-			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-44132363226403740.groovy</location>
+			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-5129755785446753887.groovy</location>
+		</link>
+		<link>
+			<name>kat-9396573736906916461.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-9396573736906916461.groovy</location>
+		</link>
+		<link>
+			<name>kat-9659518631727868851.groovy</name>
+			<type>1</type>
+			<location>C:/Users/ACERAS~1/AppData/Local/Temp/Katalon/Web Services/kat-9659518631727868851.groovy</location>
 		</link>
 	</linkedResources>
 	<filteredResources>
@@ -108,6 +118,24 @@
 		</filter>
 		<filter>
 			<id>1725682544501</id>
+			<name></name>
+			<type>6</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>(.*\.svn-base$)|(.*\.png$)|(.*\.log$)|(.*\.xlsx$)|(.*\.xls$)|(.*\.csv$)|(.*\.txt$)</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1725885164436</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1725885164463</id>
 			<name></name>
 			<type>6</type>
 			<matcher>
