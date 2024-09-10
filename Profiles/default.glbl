@@ -69,4 +69,9 @@
       <initValue>'57202438-2525-43b2-9344-56dd2a2bb74a'</initValue>
       <name>saleID</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'3f2311c7-4e71-473b-857c-6831a7c95e69'</initValue>
+      <name>purchaseID</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
