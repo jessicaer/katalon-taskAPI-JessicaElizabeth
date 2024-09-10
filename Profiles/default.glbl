@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNTkzNTAyNX0.s9QeJqW4juOaV96l-KrgTEwQBlATS5DcQPR1SnUehag'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNTkzNzAzM30.xdDdo6t9WAKn52RDm0sve_CSZEZ7VZfTzHg1bbXgc9A'</initValue>
       <name>accessToken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -43,5 +43,10 @@
       <description></description>
       <initValue>'1e2c599f-754c-47f0-9278-99308e4cb3c8'</initValue>
       <name>categoryID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'62a271f8-378a-4ca7-b785-7798a5b1c6f2'</initValue>
+      <name>customerID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

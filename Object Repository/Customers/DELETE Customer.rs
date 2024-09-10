@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET Customers</name>
+   <name>DELETE Customer</name>
    <tag></tag>
-   <elementGuidId>c570d9ba-ce5e-4096-9ba1-88e258ee3326</elementGuidId>
+   <elementGuidId>4b996e06-4c50-4fce-add1-4c9986b89492</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -17,7 +17,7 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -28,33 +28,33 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${accessToken}</value>
-      <webElementGuid>c1881517-ca47-4db8-acfb-e5d810dc7670</webElementGuid>
+      <webElementGuid>0507d8d8-8f56-4d84-9885-b32f9096ceee</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.6.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${baseURL}/customers</restUrl>
+   <restRequestMethod>DELETE</restRequestMethod>
+   <restUrl>${baseURL}/customers/f06dc2a3-fbc5-4eb6-a026-3920ee1229ef</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.baseURL</defaultValue>
       <description></description>
-      <id>21d28d37-102b-40e0-9245-ef336d2c91f3</id>
+      <id>f9db2618-8c7d-4c39-b4db-f62b91836dd7</id>
       <masked>false</masked>
       <name>baseURL</name>
    </variables>
    <variables>
       <defaultValue>GlobalVariable.accessToken</defaultValue>
       <description></description>
-      <id>ecfb8197-478e-4662-af1a-00594d0ccae9</id>
+      <id>01ee12ea-1377-4a62-87c2-3c855ad6f08f</id>
       <masked>false</masked>
       <name>accessToken</name>
    </variables>

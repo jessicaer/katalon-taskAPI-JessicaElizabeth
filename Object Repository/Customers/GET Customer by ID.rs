@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET Customers</name>
+   <name>GET Customer by ID</name>
    <tag></tag>
-   <elementGuidId>c570d9ba-ce5e-4096-9ba1-88e258ee3326</elementGuidId>
+   <elementGuidId>39b94993-140c-4ced-8b38-eb1c791d2b42</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -17,7 +17,7 @@
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
    <autoUpdateContent>true</autoUpdateContent>
-   <connectionTimeout>0</connectionTimeout>
+   <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent></httpBodyContent>
@@ -28,33 +28,40 @@
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${accessToken}</value>
-      <webElementGuid>c1881517-ca47-4db8-acfb-e5d810dc7670</webElementGuid>
+      <webElementGuid>41d7f261-f994-40da-82a9-d81b465ba0b0</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.6.0</katalonVersion>
-   <maxResponseSize>0</maxResponseSize>
+   <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
    <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${baseURL}/customers</restUrl>
+   <restUrl>${baseURL}/customers/${customerID}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
    <soapRequestMethod></soapRequestMethod>
    <soapServiceEndpoint></soapServiceEndpoint>
    <soapServiceFunction></soapServiceFunction>
-   <socketTimeout>0</socketTimeout>
+   <socketTimeout>-1</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
       <defaultValue>GlobalVariable.baseURL</defaultValue>
       <description></description>
-      <id>21d28d37-102b-40e0-9245-ef336d2c91f3</id>
+      <id>27e04208-73e7-4a5c-af76-b9d373012484</id>
       <masked>false</masked>
       <name>baseURL</name>
    </variables>
    <variables>
+      <defaultValue>GlobalVariable.customerID</defaultValue>
+      <description></description>
+      <id>fb30fbaf-a26b-41fd-a8ab-74b4304b6877</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variables>
+   <variables>
       <defaultValue>GlobalVariable.accessToken</defaultValue>
       <description></description>
-      <id>ecfb8197-478e-4662-af1a-00594d0ccae9</id>
+      <id>1d6ffb33-4716-4039-ba66-3407aa8307e7</id>
       <masked>false</masked>
       <name>accessToken</name>
    </variables>

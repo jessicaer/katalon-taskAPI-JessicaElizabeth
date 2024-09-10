@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>GET Customers</name>
+   <name>UPDATE Customer</name>
    <tag></tag>
-   <elementGuidId>c570d9ba-ce5e-4096-9ba1-88e258ee3326</elementGuidId>
+   <elementGuidId>8646b4fd-9952-4dd5-ba56-050dca85a5bc</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>false</useRalativeImagePath>
@@ -16,26 +16,38 @@
       </authorizationInfo>
       <authorizationType>Bearer</authorizationType>
    </authorizationRequest>
-   <autoUpdateContent>true</autoUpdateContent>
+   <autoUpdateContent>false</autoUpdateContent>
    <connectionTimeout>0</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
-   <httpBodyContent></httpBodyContent>
-   <httpBodyType></httpBodyType>
+   <httpBodyContent>{
+  &quot;text&quot;: &quot;{\n    \&quot;name\&quot;: \&quot;Billy\&quot;,\n    \&quot;phone\&quot;: \&quot;083\&quot;,\n    \&quot;address\&quot;: \&quot;Jakarta\&quot;,\n    \&quot;description\&quot;: \&quot;update\&quot;\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
+}</httpBodyContent>
+   <httpBodyType>text</httpBodyType>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Content-Type</name>
+      <type>Main</type>
+      <value>application/json</value>
+      <webElementGuid>52218802-4467-40a9-9bea-4c52e8c6aeb3</webElementGuid>
+   </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Authorization</name>
       <type>Main</type>
       <value>Bearer ${accessToken}</value>
-      <webElementGuid>c1881517-ca47-4db8-acfb-e5d810dc7670</webElementGuid>
+      <webElementGuid>346d6f6d-660c-43ab-aae2-a530c89189c0</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>9.6.0</katalonVersion>
    <maxResponseSize>0</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <path></path>
-   <restRequestMethod>GET</restRequestMethod>
-   <restUrl>${baseURL}/customers</restUrl>
+   <restRequestMethod>PUT</restRequestMethod>
+   <restUrl>${baseURL}/customers/${customerID}</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
@@ -47,14 +59,21 @@
    <variables>
       <defaultValue>GlobalVariable.baseURL</defaultValue>
       <description></description>
-      <id>21d28d37-102b-40e0-9245-ef336d2c91f3</id>
+      <id>9c84cb2e-67b7-4858-a7be-ea63264c2928</id>
       <masked>false</masked>
       <name>baseURL</name>
    </variables>
    <variables>
+      <defaultValue>GlobalVariable.customerID</defaultValue>
+      <description></description>
+      <id>87a85730-08f3-4446-9550-2023a338e812</id>
+      <masked>false</masked>
+      <name>customerID</name>
+   </variables>
+   <variables>
       <defaultValue>GlobalVariable.accessToken</defaultValue>
       <description></description>
-      <id>ecfb8197-478e-4662-af1a-00594d0ccae9</id>
+      <id>bb2d5eee-c636-47f1-9e5d-034ebd64f03b</id>
       <masked>false</masked>
       <name>accessToken</name>
    </variables>
