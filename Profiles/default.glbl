@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNTkzNzAzM30.xdDdo6t9WAKn52RDm0sve_CSZEZ7VZfTzHg1bbXgc9A'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNTk0MzEwNX0.kT5eCS8La9xjUAvx5W023zvcF7dQf-srJugJRcW9d0w'</initValue>
       <name>accessToken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,12 +41,32 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'1e2c599f-754c-47f0-9278-99308e4cb3c8'</initValue>
+      <initValue>'33c79d25-0793-4ecf-96dd-dde75504c6a2'</initValue>
       <name>categoryID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'62a271f8-378a-4ca7-b785-7798a5b1c6f2'</initValue>
       <name>customerID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'da70baf2-1e92-4329-81cd-687aba0bfeea'</initValue>
+      <name>productID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'8b7d9da6-97a1-4ab9-a695-fbbf6b333ac2'</initValue>
+      <name>productID2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'e66f7e2c-d449-4d9b-90b2-9e89e8cc3c0e'</initValue>
+      <name>officeID</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'57202438-2525-43b2-9344-56dd2a2bb74a'</initValue>
+      <name>saleID</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>
