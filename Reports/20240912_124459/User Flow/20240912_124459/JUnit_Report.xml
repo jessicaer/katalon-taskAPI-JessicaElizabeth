@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="User Flow" time="15.065" tests="3" failures="0" errors="0">
+   <testsuite name="User Flow" tests="3" failures="0" errors="0" time="15.065" skipped="0" timestamp="12-09-2024T12:45:10" hostname="Acer Aspire Z476 - DESKTOP-5S7EQUT.lan" id="Test Suites/User Flow">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Acer Aspire Z476\\git\\katalon-taskAPI-JessicaElizabeth\\Reports\\20240912_124459\\User Flow\\20240912_124459"/>
+         <property name="logFiles" value="C:\\Users\\Acer Aspire Z476\\git\\katalon-taskAPI-JessicaElizabeth\\Reports\\20240912_124459\\User Flow\\20240912_124459\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer Aspire Z476 - DESKTOP-5S7EQUT.lan"/>
+         <property name="hostAddress" value="192.168.8.137"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/TC01 Registration" time="8.936" classname="Test Cases/TC01 Registration" status="PASSED">
+         <system-out><![CDATA[12-09-2024T12:45:10 - [TEST_CASE][PASSED] - Test Cases/TC01 Registration: Test Cases/TC01 Registration
+
+12-09-2024T12:45:11 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Auth/Registration Success")): Send request and verify the response successfully
+
+12-09-2024T12:45:18 - [MESSAGE][INFO] - HAR: C:\Users\Acer Aspire Z476\git\katalon-taskAPI-JessicaElizabeth\Reports\20240912_124459\User Flow\20240912_124459\requests\main\0.har
+
+12-09-2024T12:45:18 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-09-2024T12:45:19 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-09-2024T12:45:19 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-09-2024T12:45:19 - [MESSAGE][PASSED] - Verify response successfully
+
+12-09-2024T12:45:19 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-09-2024T12:45:19 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC02 Login" time="4.202" classname="Test Cases/TC02 Login" status="PASSED">
+         <system-out><![CDATA[12-09-2024T12:45:19 - [TEST_CASE][PASSED] - Test Cases/TC02 Login: Test Cases/TC02 Login
+
+12-09-2024T12:45:19 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Auth/Login Success")): Send request and verify the response successfully
+
+12-09-2024T12:45:20 - [MESSAGE][INFO] - HAR: C:\Users\Acer Aspire Z476\git\katalon-taskAPI-JessicaElizabeth\Reports\20240912_124459\User Flow\20240912_124459\requests\main\1.har
+
+12-09-2024T12:45:20 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-09-2024T12:45:21 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-09-2024T12:45:21 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-09-2024T12:45:21 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+12-09-2024T12:45:21 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-09-2024T12:45:21 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+12-09-2024T12:45:22 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "status", "success"): Verify element property value successfully
+
+12-09-2024T12:45:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-09-2024T12:45:23 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "message", "Authentication berhasil ditambahkan"): Verify element property value successfully
+
+12-09-2024T12:45:23 - [MESSAGE][PASSED] - Verify element property value successfully
+
+12-09-2024T12:45:23 - [TEST_STEP][PASSED] - accessToken = getElementPropertyValue(response, "data.accessToken"): null
+
+12-09-2024T12:45:23 - [TEST_STEP][PASSED] - verifyNotEqual(accessToken, null): Actual object 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNjExOTkyMH0.ZvUDMQcFBGShONWpCYn0Mz46S58Mhy746oJOEfQjjGg' and expected object 'null' are not equal
+
+12-09-2024T12:45:23 - [MESSAGE][PASSED] - Actual object 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNjExOTkyMH0.ZvUDMQcFBGShONWpCYn0Mz46S58Mhy746oJOEfQjjGg' and expected object 'null' are not equal
+
+12-09-2024T12:45:23 - [MESSAGE][PASSED] - Verify response successfully
+
+12-09-2024T12:45:23 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-09-2024T12:45:23 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/TC03 Get Categories" time="1.411" classname="Test Cases/TC03 Get Categories" status="PASSED">
+         <system-out><![CDATA[12-09-2024T12:45:23 - [TEST_CASE][PASSED] - Test Cases/TC03 Get Categories: Test Cases/TC03 Get Categories
+
+12-09-2024T12:45:24 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Categories/GET Categories", ["baseURL":baseURL, "accessToken":accessToken])): Send request and verify the response successfully
+
+12-09-2024T12:45:24 - [MESSAGE][INFO] - HAR: C:\Users\Acer Aspire Z476\git\katalon-taskAPI-JessicaElizabeth\Reports\20240912_124459\User Flow\20240912_124459\requests\main\2.har
+
+12-09-2024T12:45:24 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+12-09-2024T12:45:25 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+12-09-2024T12:45:25 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+12-09-2024T12:45:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+12-09-2024T12:45:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+12-09-2024T12:45:25 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+12-09-2024T12:45:25 - [MESSAGE][PASSED] - Verify response successfully
+
+12-09-2024T12:45:25 - [MESSAGE][PASSED] - All validation steps have been passed
+
+12-09-2024T12:45:25 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[12-09-2024T12:45:10 - [TEST_SUITE][PASSED] - User Flow: Test Cases/TC03 Get Categories]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

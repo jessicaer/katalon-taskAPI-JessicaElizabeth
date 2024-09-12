@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+User Flow,,,,12-09-2024 12:45:10,12-09-2024 12:45:25,15.065s,PASSED
+,,,,,,,
+Test Cases/TC01 Registration,,,,12-09-2024 12:45:10,12-09-2024 12:45:19,8.936s,PASSED
+"sendRequestAndVerify(findTestObject(""Auth/Registration Success""))",,,,12-09-2024 12:45:11,12-09-2024 12:45:19,8.254s,PASSED
+,,,,,,,
+Test Cases/TC02 Login,,,,12-09-2024 12:45:19,12-09-2024 12:45:23,4.202s,PASSED
+"sendRequestAndVerify(findTestObject(""Auth/Login Success""))",,,,12-09-2024 12:45:19,12-09-2024 12:45:23,3.902s,PASSED
+,,,,,,,
+Test Cases/TC03 Get Categories,,,,12-09-2024 12:45:23,12-09-2024 12:45:25,1.411s,PASSED
+"sendRequestAndVerify(findTestObject(""Categories/GET Categories"", [""baseURL"":baseURL, ""accessToken"":accessToken]))",,,,12-09-2024 12:45:24,12-09-2024 12:45:25,1.144s,PASSED

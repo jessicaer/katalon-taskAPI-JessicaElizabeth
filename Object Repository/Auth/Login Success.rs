@@ -12,7 +12,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;tokojaya123@gmail.com\&quot;,\n    \&quot;password\&quot;: \&quot;password\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;email\&quot;: \&quot;${email}\&quot;,\n    \&quot;password\&quot;: \&quot;${password}\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -39,6 +39,20 @@
    <soapServiceFunction></soapServiceFunction>
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
+   <variables>
+      <defaultValue>'tokojaya123@gmail.com'</defaultValue>
+      <description></description>
+      <id>6717cec4-b066-48c4-94c9-0ba27b9570bd</id>
+      <masked>false</masked>
+      <name>email</name>
+   </variables>
+   <variables>
+      <defaultValue>'password'</defaultValue>
+      <description></description>
+      <id>1ca97d08-e5db-4276-8dd5-b5445bc67df3</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 
 import com.kms.katalon.core.testobject.RequestObject
@@ -53,10 +67,17 @@ RequestObject request = WSResponseManager.getInstance().getCurrentRequest()
 
 ResponseObject response = WSResponseManager.getInstance().getCurrentResponse()
 
-
-
+// Status Code Verification
 WS.verifyResponseStatusCode(response, 201)
+assertThat(response.getStatusCode()).isEqualTo(201)
 
-assertThat(response.getStatusCode()).isEqualTo(201)</verificationScript>
+// Response Body Verification
+//Memeriksa pesan ketika login berhasil
+WS.verifyElementPropertyValue(response, 'status', 'success')
+WS.verifyElementPropertyValue(response, 'message', 'Authentication berhasil ditambahkan')
+// Memeriksa apakah accessToken ada di dalam objek data pada response body
+String accessToken = WS.getElementPropertyValue(response, 'data.accessToken')
+WS.verifyNotEqual(accessToken, null) // accessToken tidak boleh null
+</verificationScript>
    <wsdlAddress></wsdlAddress>
 </WebServiceRequestEntity>
