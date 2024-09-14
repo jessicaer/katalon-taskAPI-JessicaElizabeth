@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS Product" time="10.298" tests="2" failures="0" errors="0">
+   <testsuite name="TS Product" tests="2" failures="0" errors="0" time="10.298" skipped="0" timestamp="14-09-2024T15:43:31" hostname="Acer Aspire Z476 - DESKTOP-5S7EQUT.lan" id="Test Suites/TS Product">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Acer Aspire Z476\\git\\katalon-taskAPI-JessicaElizabeth\\Reports\\20240914_154321\\TS Product\\20240914_154321"/>
+         <property name="logFiles" value="C:\\Users\\Acer Aspire Z476\\git\\katalon-taskAPI-JessicaElizabeth\\Reports\\20240914_154321\\TS Product\\20240914_154321\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer Aspire Z476 - DESKTOP-5S7EQUT.lan"/>
+         <property name="hostAddress" value="192.168.8.137"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Products/Add Products" time="8.794" classname="Test Cases/Products/Add Products" status="PASSED">
+         <system-out><![CDATA[14-09-2024T15:43:32 - [TEST_CASE][PASSED] - Test Cases/Products/Add Products: Test Cases/Products/Add Products
+
+14-09-2024T15:43:32 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Products/ADD Product")): Send request and verify the response successfully
+
+14-09-2024T15:43:38 - [MESSAGE][INFO] - HAR: C:\Users\Acer Aspire Z476\git\katalon-taskAPI-JessicaElizabeth\Reports\20240914_154321\TS Product\20240914_154321\requests\main\0.har
+
+14-09-2024T15:43:38 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+14-09-2024T15:43:40 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+14-09-2024T15:43:40 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+14-09-2024T15:43:40 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+14-09-2024T15:43:40 - [MESSAGE][PASSED] - Verify response status code successfully
+
+14-09-2024T15:43:40 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+14-09-2024T15:43:40 - [MESSAGE][PASSED] - Verify response successfully
+
+14-09-2024T15:43:40 - [MESSAGE][PASSED] - All validation steps have been passed
+
+14-09-2024T15:43:40 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Products/Get Products" time="1.013" classname="Test Cases/Products/Get Products" status="PASSED">
+         <system-out><![CDATA[14-09-2024T15:43:40 - [TEST_CASE][PASSED] - Test Cases/Products/Get Products: Test Cases/Products/Get Products
+
+14-09-2024T15:43:41 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Products/GET Products")): Send request and verify the response successfully
+
+14-09-2024T15:43:41 - [MESSAGE][INFO] - HAR: C:\Users\Acer Aspire Z476\git\katalon-taskAPI-JessicaElizabeth\Reports\20240914_154321\TS Product\20240914_154321\requests\main\1.har
+
+14-09-2024T15:43:41 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+14-09-2024T15:43:41 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+14-09-2024T15:43:41 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+14-09-2024T15:43:41 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+14-09-2024T15:43:41 - [MESSAGE][PASSED] - Verify response status code successfully
+
+14-09-2024T15:43:41 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+14-09-2024T15:43:41 - [MESSAGE][PASSED] - Verify response successfully
+
+14-09-2024T15:43:41 - [MESSAGE][PASSED] - All validation steps have been passed
+
+14-09-2024T15:43:41 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-09-2024T15:43:31 - [TEST_SUITE][PASSED] - TS Product: Test Cases/Products/Get Products]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

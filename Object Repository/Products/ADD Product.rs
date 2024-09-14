@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n    \&quot;category_id\&quot; : \&quot;33c79d25-0793-4ecf-96dd-dde75504c6a2\&quot;,\n    \&quot;code\&quot;: \&quot;M02\&quot;,\n    \&quot;name\&quot;: \&quot;Coklat Panas\&quot;,\n    \&quot;price\&quot;: \&quot;4000\&quot;,\n    \&quot;cost\&quot;: \&quot;3000\&quot;,\n    \&quot;stock\&quot;: \&quot;100\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n    \&quot;category_id\&quot; : \&quot;${categoryID}\&quot;,\n    \&quot;code\&quot;: \&quot;M02\&quot;,\n    \&quot;name\&quot;: \&quot;Coklat Panas\&quot;,\n    \&quot;price\&quot;: \&quot;4000\&quot;,\n    \&quot;cost\&quot;: \&quot;3000\&quot;,\n    \&quot;stock\&quot;: \&quot;100\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>

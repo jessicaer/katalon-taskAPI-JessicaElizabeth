@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC03 Get Categories</name>
+   <name>Update Category</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>c0540f99-4512-4a14-ade2-fffd499b09de</testCaseGuid>
+   <testCaseGuid>a84c6cd7-f57f-4c67-be1c-d718c7c4edbc</testCaseGuid>
 </TestCaseEntity>

@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>TC02 Login</name>
+   <name>Add Category</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>ae61a9d9-40ef-4be6-94b9-897b9307e045</testCaseGuid>
+   <testCaseGuid>0595cb21-839b-428b-9d14-517128839093</testCaseGuid>
 </TestCaseEntity>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="TS Category" time="10.406" tests="3" failures="0" errors="0">
+   <testsuite name="TS Category" tests="3" failures="0" errors="0" time="10.406" skipped="0" timestamp="14-09-2024T15:36:00" hostname="Acer Aspire Z476 - DESKTOP-5S7EQUT.lan" id="Test Suites/TS Category">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Acer Aspire Z476\\git\\katalon-taskAPI-JessicaElizabeth\\Reports\\20240914_153549\\TS Category\\20240914_153549"/>
+         <property name="logFiles" value="C:\\Users\\Acer Aspire Z476\\git\\katalon-taskAPI-JessicaElizabeth\\Reports\\20240914_153549\\TS Category\\20240914_153549\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Acer Aspire Z476 - DESKTOP-5S7EQUT.lan"/>
+         <property name="hostAddress" value="192.168.8.137"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.6.0.217"/>
+      </properties>
+      <testcase name="Test Cases/Category/Add Category" time="8.207" classname="Test Cases/Category/Add Category" status="PASSED">
+         <system-out><![CDATA[14-09-2024T15:36:00 - [TEST_CASE][PASSED] - Test Cases/Category/Add Category: Test Cases/Category/Add Category
+
+14-09-2024T15:36:01 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Auth/Add Category")): Send request and verify the response successfully
+
+14-09-2024T15:36:06 - [MESSAGE][INFO] - HAR: C:\Users\Acer Aspire Z476\git\katalon-taskAPI-JessicaElizabeth\Reports\20240914_153549\TS Category\20240914_153549\requests\main\0.har
+
+14-09-2024T15:36:06 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+14-09-2024T15:36:07 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+14-09-2024T15:36:07 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+14-09-2024T15:36:07 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 201): Verify response status code successfully
+
+14-09-2024T15:36:07 - [MESSAGE][PASSED] - Verify response status code successfully
+
+14-09-2024T15:36:07 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(201): null
+
+14-09-2024T15:36:08 - [MESSAGE][PASSED] - Verify response successfully
+
+14-09-2024T15:36:08 - [MESSAGE][PASSED] - All validation steps have been passed
+
+14-09-2024T15:36:08 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Update Category" time="1.25" classname="Test Cases/Category/Update Category" status="PASSED">
+         <system-out><![CDATA[14-09-2024T15:36:08 - [TEST_CASE][PASSED] - Test Cases/Category/Update Category: Test Cases/Category/Update Category
+
+14-09-2024T15:36:08 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Categories/Update Category")): Send request and verify the response successfully
+
+14-09-2024T15:36:09 - [MESSAGE][INFO] - HAR: C:\Users\Acer Aspire Z476\git\katalon-taskAPI-JessicaElizabeth\Reports\20240914_153549\TS Category\20240914_153549\requests\main\1.har
+
+14-09-2024T15:36:09 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+14-09-2024T15:36:09 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+14-09-2024T15:36:09 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+14-09-2024T15:36:09 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+14-09-2024T15:36:09 - [MESSAGE][PASSED] - Verify response status code successfully
+
+14-09-2024T15:36:09 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+14-09-2024T15:36:09 - [MESSAGE][PASSED] - Verify response successfully
+
+14-09-2024T15:36:09 - [MESSAGE][PASSED] - All validation steps have been passed
+
+14-09-2024T15:36:09 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Category/Delete Category" time="0.48" classname="Test Cases/Category/Delete Category" status="PASSED">
+         <system-out><![CDATA[14-09-2024T15:36:09 - [TEST_CASE][PASSED] - Test Cases/Category/Delete Category: Test Cases/Category/Delete Category
+
+14-09-2024T15:36:10 - [TEST_STEP][PASSED] - sendRequestAndVerify(findTestObject("Categories/DELETE Category", ["baseURL":baseURL, "categoryID":categoryID, "accessToken":accessToken])): Send request and verify the response successfully
+
+14-09-2024T15:36:10 - [MESSAGE][INFO] - HAR: C:\Users\Acer Aspire Z476\git\katalon-taskAPI-JessicaElizabeth\Reports\20240914_153549\TS Category\20240914_153549\requests\main\2.har
+
+14-09-2024T15:36:10 - [TEST_CASE][PASSED] - Start Test Case : Verification: Verification accomplished successfully
+
+14-09-2024T15:36:10 - [TEST_STEP][PASSED] - request = getInstance().getCurrentRequest(): null
+
+14-09-2024T15:36:10 - [TEST_STEP][PASSED] - response = getInstance().getCurrentResponse(): null
+
+14-09-2024T15:36:10 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+14-09-2024T15:36:10 - [MESSAGE][PASSED] - Verify response status code successfully
+
+14-09-2024T15:36:10 - [TEST_STEP][PASSED] - getStatusCode()).isEqualTo(200): null
+
+14-09-2024T15:36:10 - [MESSAGE][PASSED] - Verify response successfully
+
+14-09-2024T15:36:10 - [MESSAGE][PASSED] - All validation steps have been passed
+
+14-09-2024T15:36:10 - [MESSAGE][PASSED] - Send request and verify the response successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[14-09-2024T15:36:00 - [TEST_SUITE][PASSED] - TS Category: Test Cases/Category/Delete Category]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

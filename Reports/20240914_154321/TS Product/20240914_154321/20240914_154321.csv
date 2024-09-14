@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS Product,,,,14-09-2024 15:43:31,14-09-2024 15:43:41,10.298s,PASSED
+,,,,,,,
+Test Cases/Products/Add Products,,,,14-09-2024 15:43:32,14-09-2024 15:43:40,8.794s,PASSED
+"sendRequestAndVerify(findTestObject(""Products/ADD Product""))",,,,14-09-2024 15:43:32,14-09-2024 15:43:40,8.156s,PASSED
+,,,,,,,
+Test Cases/Products/Get Products,,,,14-09-2024 15:43:40,14-09-2024 15:43:41,1.013s,PASSED
+"sendRequestAndVerify(findTestObject(""Products/GET Products""))",,,,14-09-2024 15:43:41,14-09-2024 15:43:41,0.753s,PASSED

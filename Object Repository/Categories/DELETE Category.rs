@@ -52,7 +52,7 @@
       <name>baseURL</name>
    </variables>
    <variables>
-      <defaultValue>GlobalVariable.categoryID</defaultValue>
+      <defaultValue>'727d6302-69f1-4a7f-ade7-bb88b382f2da'</defaultValue>
       <description></description>
       <id>8ee1f08b-a35a-4f73-8a6b-1fd1d92aff9f</id>
       <masked>false</masked>

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS Category,,,,14-09-2024 15:36:00,14-09-2024 15:36:10,10.406s,PASSED
+,,,,,,,
+Test Cases/Category/Add Category,,,,14-09-2024 15:36:00,14-09-2024 15:36:08,8.207s,PASSED
+"sendRequestAndVerify(findTestObject(""Auth/Add Category""))",,,,14-09-2024 15:36:01,14-09-2024 15:36:08,7.491s,PASSED
+,,,,,,,
+Test Cases/Category/Update Category,,,,14-09-2024 15:36:08,14-09-2024 15:36:09,1.250s,PASSED
+"sendRequestAndVerify(findTestObject(""Categories/Update Category""))",,,,14-09-2024 15:36:08,14-09-2024 15:36:09,0.979s,PASSED
+,,,,,,,
+Test Cases/Category/Delete Category,,,,14-09-2024 15:36:09,14-09-2024 15:36:10,0.480s,PASSED
+"sendRequestAndVerify(findTestObject(""Categories/DELETE Category"", [""baseURL"":baseURL, ""categoryID"":categoryID, ""accessToken"":accessToken]))",,,,14-09-2024 15:36:10,14-09-2024 15:36:10,0.208s,PASSED

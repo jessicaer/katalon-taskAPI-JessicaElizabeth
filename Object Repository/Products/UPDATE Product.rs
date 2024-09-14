@@ -21,7 +21,7 @@
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \t\&quot;category_id\&quot; : \&quot;33c79d25-0793-4ecf-96dd-dde75504c6a2\&quot;,\n\t\&quot;code\&quot; : \&quot;M01\&quot;,\n    \&quot;name\&quot;: \&quot;Es Teh Manis\&quot;,\n    \&quot;price\&quot;: \&quot;3000\&quot;,\n    \&quot;cost\&quot;: \&quot;2000\&quot;,\n    \&quot;stock\&quot;: \&quot;20\&quot;\n}&quot;,
+  &quot;text&quot;: &quot;{\n  \t\&quot;category_id\&quot; : \&quot;${categoryID}\&quot;,\n\t\&quot;code\&quot; : \&quot;M01\&quot;,\n    \&quot;name\&quot;: \&quot;Es Teh Manis\&quot;,\n    \&quot;price\&quot;: \&quot;3000\&quot;,\n    \&quot;cost\&quot;: \&quot;2000\&quot;,\n    \&quot;stock\&quot;: \&quot;20\&quot;\n}&quot;,
   &quot;contentType&quot;: &quot;application/json&quot;,
   &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
@@ -76,6 +76,13 @@
       <id>f25f8812-6f0d-4b04-bd17-c723d19db430</id>
       <masked>false</masked>
       <name>accessToken</name>
+   </variables>
+   <variables>
+      <defaultValue>GlobalVariable.categoryID</defaultValue>
+      <description></description>
+      <id>1a76a20d-47bb-4cc4-9590-01855db94554</id>
+      <masked>false</masked>
+      <name>categoryID</name>
    </variables>
    <verificationScript>import static org.assertj.core.api.Assertions.*
 

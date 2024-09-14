@@ -26,7 +26,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNjEyMTY0NH0.5JMfnvOGQxxTLGeD5gFkMSwW6I2qF4h9dfm9fVkvqJo'</initValue>
+      <initValue>'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjA4ODYxMmI2LWQ3MGUtNGIzMS05Y2M4LWVmZTQ3MTkwZTVhNCIsImNvbXBhbnlJZCI6IjE3YzEwYTQyLWM0ODMtNGFiZS04ZDgxLTJjM2QxNjg0MWViYyIsImlhdCI6MTcyNjMwMTQwM30.tLDlL7JrAlA4-bGEnBoZWbdeUeBbXa_zRN9oN1iIK0Y'</initValue>
       <name>accessToken</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -41,7 +41,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'33c79d25-0793-4ecf-96dd-dde75504c6a2'</initValue>
+      <initValue>'3b7735e9-6b2a-40ed-8955-51b35919831d'</initValue>
       <name>categoryID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -51,7 +51,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'da70baf2-1e92-4329-81cd-687aba0bfeea'</initValue>
+      <initValue>'b7f07c22-4d75-48ab-a1f0-174ad8eb964e'</initValue>
       <name>productID</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

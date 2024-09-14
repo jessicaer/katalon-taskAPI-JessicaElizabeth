@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>User Flow</name>
+   <name>TS Category</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -12,24 +12,24 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>21518cb4-5557-42c5-ae2b-608370d6a1cc</testSuiteGuid>
    <testCaseLink>
-      <guid>166a4d5d-2409-4e35-b0df-c546f756e038</guid>
+      <guid>58cb39db-15d3-426c-a8f7-dcef7b029b44</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC01 Registration</testCaseId>
+      <testCaseId>Test Cases/Category/Add Category</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a4566971-c6e2-469c-b305-13ce02be3e7a</guid>
+      <guid>763e8112-6588-4082-96b2-599f3e8e418b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC02 Login</testCaseId>
+      <testCaseId>Test Cases/Category/Update Category</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>59fcbb09-bf9c-41a7-bf11-7d780e7f91d3</guid>
+      <guid>faada94f-13e8-4350-ab08-ae03e01e6c4e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/TC03 Get Categories</testCaseId>
+      <testCaseId>Test Cases/Category/Delete Category</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>
